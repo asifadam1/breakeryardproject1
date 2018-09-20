@@ -146,6 +146,23 @@ a:hover {
   font-family: 'Russo One', sans-serif;
 }
 
+.text.caption-text{
+    font-size: 25px;
+    font-family: 'Russo One', sans-serif;
+    color: #fff;
+
+
+
+}
+
+/*gives caption text a tranparent backgorund without affecting the text*/
+.text{
+  background-color:rgba(51, 190, 51, .4);
+}
+
+
+
+
 section {
   padding: 8rem 0;
     overflow-x: hidden; /*most times this takes out the horizontal side scroll*/
@@ -290,6 +307,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
 }
 
 header.masthead hr {
@@ -298,7 +316,8 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  text-shadow: 2px 2px #1bd60a;
 }
 
 header.masthead p {
