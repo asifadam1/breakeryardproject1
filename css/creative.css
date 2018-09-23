@@ -103,8 +103,16 @@ a:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.logo-pic>img{
+  width: 60px;
+  height: 120px;
+}
+
 .card{
   background-color: #1bd60a ;
+}
+.card-deck{
+  padding-top: 40px;
 }
 .card-body1{
   background-color: #1bd60a ;
@@ -201,7 +209,9 @@ img::-moz-selection {
   top:30px;
 }
 
-
+.font-icon{
+  padding-left: 3px;
+}
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
@@ -557,6 +567,64 @@ color: red;
   animation-duration: .5s;
   animation-name: fadeAndScale;
   animation-timing-function: cubic-bezier(.71,.55,.62,1.57);
+
+}
+
+/* Change the border colour to green*/
+div#auction-nudge-items div#an-search-box {
+	border-color:  #1bd60a;
+}
+/* Change the background colour to green and the text to white */
+div#auction-nudge-items div#an-search-submit {
+	background-color:  #1bd60a;
+	color: white;
+
+}
+
+
+
+/*styles the nect and previous links*/
+div#auction-nudge-items .an-page-wrap{
+  color: red;
+  font-family: 'Russo One', sans-serif;
+  letter-spacing: 1.5px;
+
+}
+
+/* change the background color of the item listing */
+div#auction-nudge-items .an-item{
+border-top: 1px solid #1bd60a;
+}
+
+/* The title link */
+div#auction-nudge-items .an-title a {
+  color: black;
+
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1.5px;
+
+}
+/* The price */
+div#auction-nudge-items .an-price {
+  color: black;
+
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px  #1bd60a;
+}
+/* Time left label */
+div#auction-nudge-items .an-ends .an-label {
+  color: red;
+}
+/* Time left */
+div#auction-nudge-items .an-ends .an-time {
+  color: purple;
+}
+/* View item link */
+div#auction-nudge-items .an-view a {
+  color: black;
+  font-family: 'Russo One', sans-serif;
+  text-shadow: 2px 2px  #1bd60a;
 
 }
 
